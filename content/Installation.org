@@ -1,12 +1,12 @@
 * beatoraja 安装要求
-/（本文翻译于[[https://lntakeshi.hateblo.jp/entry/2017/05/19/002127]]）/
+/（本文翻译于 [[https://lntakeshi.hateblo.jp/entry/2017/05/19/002127]] ）/
 ** 前言
 
 如果您下载的beatoraja是已经打包好的版本，并且启动的时候没有任何问题，那么可以跳过这个部分。如果启动的时候遇到问题，请确保您的PC满足这些要求。
 
 *** 您的电脑必须满足的条件
 1. Java Runtime Environment 1.8.0 *64bit* (32bit版本是不能运行的)。
-2. OpenGL 3.1 (系统Windows 10 + 显卡Intel HD Graphics 2000/3000可能无法运行。具体原因可以看这里：[[https://github.com/LWJGL/lwjgl/issues/119]])。
+2. OpenGL 3.1 (系统Windows 10 + 显卡Intel HD Graphics 2000/3000可能无法运行。具体原因可以看这里： [[https://github.com/LWJGL/lwjgl/issues/119]] )。
 3. 64位系统。
 
 libgbx使用的是OpenGL ES 2.0。所以即使要求最低是OpenGL 3.1，但是我觉得OpenGL 4.1是必须的。
@@ -46,7 +46,7 @@ java -version
 二进制应用下载位置在这里：[[https://mocha-repository.info/download.php]]
 点击Latest Release下的超链接进行下载。
 
-如需要源码构建，需要使用 =Ant= 进行构建。这里不详细说明，需要的请查看[[https://ant.apache.org/manual/index.html]]。
+如需要源码构建，需要使用 =Ant= 进行构建。这里不详细说明，需要的请查看 [[https://ant.apache.org/manual/index.html]]。
 
 Windows用户双击 =beatoraja-config.bat= macOS/Linux用户双击 =beatoraja-config.command= 或在Terminal中移动到游戏目录输入 
 #+BEGIN_SRC sh 
@@ -65,6 +65,6 @@ Windows用户双击 =beatoraja-config.bat= macOS/Linux用户双击 =beatoraja-co
 *** Invalid maximum heap size: -Xmx4g
 查看安装的Java版本是否是64位版本，请确认使用环境为64位系统64位版本的Java。
 *** OpenGL is not supported by the video driver
-查看自己的硬件配置，若在[[https://en.wikipedia.org/wiki/GeForce][Wikipedia]]此类网站或通过应用查询到自己显卡不支持OpenGL 3.1。那么请更换硬件。若是支持，请根据自己的硬件信息更新驱动。
+查看自己的硬件配置，若在 [[https://en.wikipedia.org/wiki/GeForce][Wikipedia ]]此类网站或通过应用查询到自己显卡不支持OpenGL 3.1。那么请更换硬件。若是支持，请根据自己的硬件信息更新驱动。
 *** Error: Unable to access jarfile beatoraja.jar
 查看在游戏目录下是否有 =beatoraja.jar= 文件，如果没有，可能是下载源码版本的游戏。请从上文二进制应用下载位置进行下载解压。
